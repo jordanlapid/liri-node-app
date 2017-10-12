@@ -14,15 +14,15 @@ var searchArray = process.argv;
 switch (command){
 	case "my-tweets":
 	twitter();
-
+	break;
 	case "spotify-this-song":
 	createSearch();
 	spotify();
-
+	break;
 	case "movie-this":
 	createSearch();
-	// omdb();
-
+	omdb();
+	break;
 	case "do-what-it-says":
 	break;
 }
@@ -50,7 +50,6 @@ function createSearch () {
 			searchTerm = "Mr.Nobody";
 		}
 	}
-	console.log(searchTerm);
 }
 
 function twitter (){
