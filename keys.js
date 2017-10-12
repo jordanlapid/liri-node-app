@@ -1,4 +1,4 @@
-console.log('this is loaded');
+console.log('Keys are Loaded');
 
 var Twitter = require('twitter');
 var Spotify = require('node-spotify-api');
